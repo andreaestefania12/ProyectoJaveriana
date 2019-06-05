@@ -8,5 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppMoviles.Vistas.BuscarH.xaml", "Vistas/BuscarH.xaml", null)]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppMoviles.Vistas.BuscarH.xaml", "Vistas/BuscarH.xaml", typeof(global::AppMoviles.Vistas.BuscarH))]
 
+namespace AppMoviles.Vistas {
+    
+    
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Vistas\\BuscarH.xaml")]
+    public partial class BuscarH : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private void InitializeComponent() {
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BuscarH));
+        }
+    }
+}

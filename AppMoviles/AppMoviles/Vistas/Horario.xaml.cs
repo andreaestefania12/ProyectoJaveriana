@@ -16,7 +16,8 @@ namespace AppMoviles.Vistas
         {
             InitializeComponent();
             Children.Add(new PersonalH());
-            
+            Children.Add(new BuscarH());
+
         }
     }
 }

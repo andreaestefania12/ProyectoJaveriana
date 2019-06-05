@@ -21,6 +21,11 @@
         <Style TargetType="Image">
             <Setter Property="WidthRequest" Value="100"/>
         </Style>
+        <Style x:Key="LabelTop" TargetType="Label">
+            <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+            <Setter Property="TextColor" Value="#033E8C"/>
+        </Style>
+        
      
     </MasterDetailPage.Resources>
     <MasterDetailPage.Master>
@@ -29,14 +34,18 @@
             Icon="">
             <StackLayout Orientation="Vertical">
                 <StackLayout BackgroundColor="#F2CB05"
-                     HeightRequest="150">
-                    <Image Source="logo.png"></Image>
-                    <Label x:Name="Emplid" Text="{Binding Emplid}"></Label>
+                     HeightRequest="200"
+                     >
+                    <Image Source="logo.png" VerticalOptions="StartAndExpand" ></Image>
+                    <Label Style="{StaticResource LabelTop}" Text="{Binding Emplid , StringFormat='ID: {0}'}"></Label>
+                    <Label Style="{StaticResource LabelTop}" Text="{Binding Nombre}"></Label>
+                    <Label Style="{StaticResource LabelTop}" Text="{Binding Apellido}"></Label>
+                    
                 </StackLayout>
                 <ListView x:Name="ListMenu" ItemSelected="ListMenu_ItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ImageCell Text="{Binding MenuTitle}" ImageSource="{Binding Icon}"></ImageCell>
+                            <ImageCell Text="{Binding MenuTitle}" TextColor="Black" ImageSource="{Binding Icon}"></ImageCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>

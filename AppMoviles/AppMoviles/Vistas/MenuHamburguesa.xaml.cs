@@ -1,4 +1,5 @@
 ﻿using AppMoviles.Modelos;
+using AppMoviles.ViewModels;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
@@ -9,19 +10,22 @@ namespace AppMoviles.Vistas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MenuHamburguesa : MasterDetailPage
     {
+        UsuarioViewModel context;
         public MenuHamburguesa(Usuario usuario)
         {
+            context = new UsuarioViewModel(usuario);
             InitializeComponent();
             Init(usuario);
+            BindingContext = context;
         }
 
         void Init(Usuario usuario)
         {
             List<Menu> menu = new List<Menu>
             {
-                new Menu { Page = new Course(usuario), MenuTitle = "Asignaturas", Icon = "logo.png" },
-                //new Menu { Page = new Horario(), MenuTitle = "Horario", Icon = "horario.png" },
-                new Menu { Page = new Biblioteca(usuario), MenuTitle = "Biblioteca", Icon = "biblioteca.png" },
+                new Menu { Page = new Course(usuario), MenuTitle = "Asignaturas", Icon = "biblioteca.png" },
+                new Menu { Page = new Horario(), MenuTitle = "Horario", Icon = "horario.png" },
+                new Menu { Page = new Biblioteca(usuario), MenuTitle = "Biblioteca", Icon = "biblio.png" },
                 new Menu { Page = new Login(), MenuTitle = "Cerrar Sesión", Icon = "exit.png" }
             };
 

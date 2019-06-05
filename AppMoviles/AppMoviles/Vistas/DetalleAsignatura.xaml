@@ -5,12 +5,21 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="AppMoviles.Vistas.DetalleAsignatura">
+    <ContentPage.Resources>
+        <Style TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="#F2F2F2"/>
+        </Style>
+        <Style TargetType="StackLayout">
+            <Setter Property="BackgroundColor" Value="#FFFFFF"/>           
+        </Style>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center">
+        <StackLayout >
 
-            <Label x:Name="MyItemNameShow" HorizontalTextAlignment="Center"/>
-            <Label x:Name="MyIngrediantItemShow" Margin="20,20" FontSize="Small"/>
-            <Label x:Name="MyImageCall"  />
+            <Label x:Name="MyNameShow" FontSize="Medium" />
+            <Label x:Name="MyNotaShow" FontSize="Medium"/>
+            <Label x:Name="MyInaShow" FontSize="Medium"/>
+            <Label x:Name="MyDocenteShow" FontSize="Medium" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

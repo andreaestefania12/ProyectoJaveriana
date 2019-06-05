@@ -21,7 +21,7 @@ namespace AppMoviles.Vistas
         private async void OnItemSelect(Object sender, ItemTappedEventArgs e)
         {
             var mydetails = e.Item as Asignatura;
-            await Navigation.PushAsync(new DetalleAsignatura(mydetails.Nombre, mydetails.Nota, mydetails.Inasistencia));
+            await Navigation.PushAsync(new DetalleAsignatura(mydetails));
 
         }
     }

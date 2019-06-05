@@ -20,7 +20,7 @@
         <Style x:Key="Info" TargetType="StackLayout">
             <Setter Property="Margin" Value="0,3,0,3"/>
             <Setter Property="BackgroundColor" Value="#FFFFFF"/>
-            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
             <Setter Property="VerticalOptions" Value="Fill"/>
         </Style>
         <Style x:Key="Asignatura" TargetType="Label" >
