@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMoviles.Vistas.Login"
+             Title="Pontificia Universidad Javeriana ">
+
+    <ContentPage.Resources>
+        <Style TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="#F2F2F2"/>
+        </Style>
+        <Style TargetType="StackLayout">
+            <Setter Property="Margin" Value="30,60,30,0"/>
+        </Style>
+        <Style x:Key="Logo" TargetType="Image">
+            <Setter Property="WidthRequest" Value="500"/>
+        </Style>
+        <Style x:Key="boxEntry" TargetType="Entry" >
+            <Setter Property="TextColor" Value="#033E8C"/>
+            <Setter Property="PlaceholderColor" Value="#033E8C"/>
+        </Style>
+        <Style x:Key="btnLogin" TargetType="Button" >
+            <Setter Property="BackgroundColor" Value="#F2CB05"/>
+        </Style>
+        
+    </ContentPage.Resources>
+    <StackLayout>
+        <Image Style="{StaticResource Logo}" Source="logo.png"></Image>
+        <Entry Style="{StaticResource boxEntry}" Placeholder="Usuario" Text="{Binding Username}"></Entry>
+        <Entry Style="{StaticResource boxEntry}" Placeholder="Contraseña" IsPassword="true" Text="{Binding Password}"></Entry>
+        <Button Style="{StaticResource btnLogin}" Text="Ingresar"  Command="{Binding LoginCommand}"></Button>
+        <Label Text="{Binding MensajeInfo.Mensaje}" IsVisible="{Binding MensajeInfo.HasError}"/>
+    </StackLayout>
+
+</ContentPage>
+
+

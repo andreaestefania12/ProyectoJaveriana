@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppMoviles.Vistas.MenuHamburguesa"
+             >
+    <MasterDetailPage.Resources>
+        <Style TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="#F2F2F2"/>
+        </Style>
+
+        <Style TargetType="ListView">
+            <Setter Property="BackgroundColor" Value="#FFFFFF"/>
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="#033E8C"/>
+        </Style>
+        <Style TargetType="Image">
+            <Setter Property="WidthRequest" Value="100"/>
+        </Style>
+     
+    </MasterDetailPage.Resources>
+    <MasterDetailPage.Master>
+        <ContentPage
+            Title ="Menú"
+            Icon="">
+            <StackLayout Orientation="Vertical">
+                <StackLayout BackgroundColor="#F2CB05"
+                     HeightRequest="150">
+                    <Image Source="logo.png"></Image>
+                    <Label x:Name="Emplid" Text="{Binding Emplid}"></Label>
+                </StackLayout>
+                <ListView x:Name="ListMenu" ItemSelected="ListMenu_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ImageCell Text="{Binding MenuTitle}" ImageSource="{Binding Icon}"></ImageCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>
