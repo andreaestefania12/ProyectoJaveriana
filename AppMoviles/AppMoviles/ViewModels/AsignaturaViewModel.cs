@@ -38,10 +38,10 @@ namespace AppMoviles.ViewModels
         private async void InitialConfiguration(Usuario usuario)
         {
             Asignaturas = await servicioAsignatura.getAsignaturas(usuario);
-            //foreach (var asignatura in Asignaturas)
-            //{
-            //    horarios.AddRange(servicioAsignatura.getHorario(asignatura.Nombre));
-            //}
+            foreach (var asignatura in Asignaturas)
+            {
+                horarios.AddRange(asignatura.Horarios);
+            }
         }
     }
 }

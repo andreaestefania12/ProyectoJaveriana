@@ -6,11 +6,61 @@
              mc:Ignorable="d"
              x:Class="AppMoviles.Vistas.PersonalH"
              Title="Personal">
+    <ContentPage.Resources>
+        <Style TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="#F2F2F2"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="#000000"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+        <Style TargetType="StackLayout">
+            <Setter Property="Margin" Value="0,2,0,2"/>
+            <Setter Property="BackgroundColor" Value="#FFFFFF"/>
+        </Style>
+        <Style x:Key="Info" TargetType="StackLayout">
+            <Setter Property="Margin" Value="0,3,0,3"/>
+            <Setter Property="BackgroundColor" Value="#FFFFFF"/>
+            <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+            <Setter Property="VerticalOptions" Value="Fill"/>
+        </Style>
+        <Style x:Key="Asignatura" TargetType="Label" >
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+        <Style TargetType="Frame">
+            <Setter Property="BorderColor" Value="Black"/>
+            <Setter Property="BackgroundColor" Value="#F2CB05" />
+            <Setter Property="Margin" Value="0,3,0,3"/>
+        </Style>
+
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <ListView ItemsSource="{Binding Horarios}"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None"
+                  >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout >
+                                <Frame Padding="8">
+                                    <Label Style="{StaticResource Asignatura}" Text="{Binding Nombre}"></Label>
+                                </Frame>
+                                <StackLayout Style="{StaticResource Info}">
+                                    <Label Text="{Binding Hora, StringFormat='Hora de la clase: {0}'}"></Label>
+                                    <Label Text="{Binding Salon, StringFormat='Salon: {0}'}" ></Label>
+                                    <Label Text="{Binding FechaInicial, StringFormat='Fecha Inicio: {0}'}" ></Label>
+                                    <Label Text="{Binding FechaFinal, StringFormat='Fecha Final: {0}'}" ></Label>
+                                    <Label Text="{Binding Docente, StringFormat='Docente: {0}'}" ></Label>
+                                    <Label Text="{Binding Dia, StringFormat='Dia: {0}'}" ></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

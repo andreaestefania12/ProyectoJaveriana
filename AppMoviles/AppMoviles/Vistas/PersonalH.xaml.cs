@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AppMoviles.Modelos;
+using AppMoviles.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +14,13 @@ namespace AppMoviles.Vistas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PersonalH : ContentPage
     {
-        public PersonalH()
+        AsignaturaViewModel context;
+    
+        public PersonalH(Usuario usuario)
         {
             InitializeComponent();
+            context = new AsignaturaViewModel(usuario);
+            BindingContext = context;
         }
     }
 }

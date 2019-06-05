@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppMoviles.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,10 @@ namespace AppMoviles.Vistas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Horario : TabbedPage
     {
-        public Horario()
+        public Horario(Usuario usuario)
         {
             InitializeComponent();
-            Children.Add(new PersonalH());
+            Children.Add(new PersonalH(usuario));
             Children.Add(new BuscarH());
 
         }

@@ -24,7 +24,7 @@ namespace AppMoviles.Vistas
             List<Menu> menu = new List<Menu>
             {
                 new Menu { Page = new Course(usuario), MenuTitle = "Asignaturas", Icon = "biblioteca.png" },
-                new Menu { Page = new Horario(), MenuTitle = "Horario", Icon = "horario.png" },
+                new Menu { Page = new Horario(usuario), MenuTitle = "Horario", Icon = "horario.png" },
                 new Menu { Page = new Biblioteca(usuario), MenuTitle = "Biblioteca", Icon = "biblio.png" },
                 new Menu { Page = new Login(), MenuTitle = "Cerrar Sesión", Icon = "exit.png" }
             };
