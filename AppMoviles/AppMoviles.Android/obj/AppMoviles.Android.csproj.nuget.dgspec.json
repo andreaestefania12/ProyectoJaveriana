@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles.Android\\AppMoviles.Android.csproj": {}
+    "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles.Android\\AppMoviles.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles.Android\\AppMoviles.Android.csproj": {
+    "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles.Android\\AppMoviles.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles.Android\\AppMoviles.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles.Android\\AppMoviles.Android.csproj",
         "projectName": "AppMoviles.Android",
-        "projectPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles.Android\\AppMoviles.Android.csproj",
-        "packagesPath": "C:\\Users\\Asus-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles.Android\\obj\\",
+        "projectPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles.Android\\AppMoviles.Android.csproj",
+        "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj": {
-                "projectPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj"
+              "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj": {
+                "projectPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj"
               }
             }
           }
@@ -94,21 +94,21 @@
         }
       }
     },
-    "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj": {
+    "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj",
+        "projectUniqueName": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj",
         "projectName": "AppMoviles",
-        "projectPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj",
-        "packagesPath": "C:\\Users\\Asus-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\obj\\",
+        "projectPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj",
+        "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

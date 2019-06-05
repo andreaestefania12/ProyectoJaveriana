@@ -4758,7 +4758,7 @@
       ]
     },
     "Xamarin.Essentials/1.0.1": {
-      "sha512": "cGSje2LlYsCdscPt2zAG4e0Zzr08zc21Cj4DAMub3GR37lc/vzAVwGxco8NeCSzcZs147wYbXkFCXwOr4LUO9A==",
+      "sha512": "TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
       "type": "package",
       "path": "xamarin.essentials/1.0.1",
       "files": [
@@ -5049,25 +5049,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus-PC\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Antonio\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj",
+      "projectUniqueName": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj",
       "projectName": "AppMoviles",
-      "projectPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj",
-      "packagesPath": "C:\\Users\\Asus-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\obj\\",
+      "projectPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj",
+      "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

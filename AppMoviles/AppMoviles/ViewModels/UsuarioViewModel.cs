@@ -16,9 +16,18 @@ namespace AppMoviles.ViewModels
         public UsuarioViewModel()
         {
             usuario = new Usuario();
-            servicioLogin = new LoginAPIRest();
-            mensajeError = new MensajeError();
-            LoginCommand = new Command(async () => await Login(), () => true);
+            this.InitialConfiguration();
+        }
+
+        public UsuarioViewModel(Usuario usuario)
+        {
+            this.EsValido = usuario.EsValido;
+            this.Nombre = usuario.Nombre;
+            this.Apellido = usuario.Apellido;
+            this.Periodo = usuario.Periodo;
+            this.Emplid = usuario.Emplid;
+            this.Token = usuario.Token;
+            this.InitialConfiguration();
         }
 
         public Command LoginCommand { get; set; }
@@ -45,6 +54,13 @@ namespace AppMoviles.ViewModels
                 usuario = result.Item1;
                 Application.Current.MainPage = new MenuHamburguesa(usuario);
             }
+        }
+
+        private void InitialConfiguration()
+        {
+            servicioLogin = new LoginAPIRest();
+            mensajeError = new MensajeError();
+            LoginCommand = new Command(async () => await Login(), () => true);
         }
     }
 }

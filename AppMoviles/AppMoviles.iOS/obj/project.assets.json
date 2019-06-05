@@ -2526,7 +2526,7 @@
       ]
     },
     "Xamarin.Essentials/1.0.1": {
-      "sha512": "cGSje2LlYsCdscPt2zAG4e0Zzr08zc21Cj4DAMub3GR37lc/vzAVwGxco8NeCSzcZs147wYbXkFCXwOr4LUO9A==",
+      "sha512": "TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
       "type": "package",
       "path": "xamarin.essentials/1.0.1",
       "files": [
@@ -2561,7 +2561,7 @@
       ]
     },
     "Xamarin.Forms/3.6.0.264807": {
-      "sha512": "PbnXpStyxNYJzPrXXMW17F4YeMsFAs6YT9LL2vxObDWCGtaKkLia4UyBPF3Qbhy+lQPeap/ijV1Rlvasp4DFiA==",
+      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
       "type": "package",
       "path": "xamarin.forms/3.6.0.264807",
       "files": [
@@ -2742,24 +2742,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus-PC\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Antonio\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles.iOS\\AppMoviles.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles.iOS\\AppMoviles.iOS.csproj",
       "projectName": "AppMoviles.iOS",
-      "projectPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles.iOS\\AppMoviles.iOS.csproj",
-      "packagesPath": "C:\\Users\\Asus-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles.iOS\\AppMoviles.iOS.csproj",
+      "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\ProgramData\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2773,8 +2773,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj": {
-              "projectPath": "C:\\Users\\Asus-PC\\Downloads\\App-Javeriana-master\\AppMoviles\\AppMoviles\\AppMoviles.csproj"
+            "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj": {
+              "projectPath": "C:\\Users\\Antonio\\Desktop\\Universidad\\moviles\\MovilesJaveriana\\AppMoviles\\AppMoviles\\AppMoviles.csproj"
             }
           }
         }
@@ -2823,7 +2823,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Forms de 4.0.0.482894 a 3.6.0.264807. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n AppMoviles.iOS -> AppMoviles -> Xamarin.Forms (>= 4.0.0.482894) \r\n AppMoviles.iOS -> Xamarin.Forms (>= 3.6.0.264807)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.482894 to 3.6.0.264807. Reference the package directly from the project to select a different version. \r\n AppMoviles.iOS -> AppMoviles -> Xamarin.Forms (>= 4.0.0.482894) \r\n AppMoviles.iOS -> Xamarin.Forms (>= 3.6.0.264807)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
